@@ -42,16 +42,15 @@ mind vállalati ügyfelek számára.
 ### **2. Termék osztály**  
 - A webshopban forgalmazott termékek leírására szolgál.  
 - Tulajdonságok: név, ár, gyártó, cikkszám, kategória, készlet.  
-- Metódusok: új termék létrehozása, készlet frissítése, termék adatainak módosítása.  
 
 ### **3. Felhasználó osztály**  
 - Az ügyfelek és adminisztrátorok közös attribútumait tartalmazza.  
 - Tulajdonságok: felhasználónév, jelszó, email, szerepkör (admin/vevő).  
-- Metódusok: belépés, regisztráció.  
+ 
 
 ### **4. Admin osztály** *(a Felhasználó osztályból származik)*  
 - Tulajdonságok: admin jogosultságok (pl. akciókezelés).  
-- Metódusok: termékek kezelése, akciók létrehozása, rendelések felügyelete.  
+
 
 ### **5. Vevő osztály** *(a Felhasználó osztályból származik)*  
 - Tulajdonságok: vásárlási előzmények, kosár tartalma.  
@@ -63,13 +62,18 @@ mind vállalati ügyfelek számára.
 ### **7. Rendelés szolgáltatás**  
 - Feladata a rendelésekkel kapcsolatos folyamatok kezelése.  
 - Metódusok: rendelés feldolgozása, státusz frissítése.
-- - Metódusok: rendelés létrehozása, állapot módosítása, rendelés lekérdezése.  
+- - Metódusok: rendelés létrehozása, állapot módosítása, rendelés lekérdezése.
+  - - Metódusok: rendelés leadása, kosár kezelése.  
 
-### **8. Regisztrációs szolgáltatás**  
+### **8. Autentikáció szolgáltatás**  
 - Felhasználók regisztrációjának és hitelesítésének kezelése.  
-- Metódusok: új fiók létrehozása, jelszó hitelesítése.  
-
-### **9. Termék megjelenítő**  
+- Metódusok: új fiók létrehozása, jelszó hitelesítése, belépés, regisztráció.
+  
+### 9. **Adminisztrációs szolgáltatás**
+- Metódusok: új termék létrehozása, készlet frissítése, termék adatainak módosítása.
+- - Metódusok: termékek kezelése, akciók létrehozása, rendelések felügyelete.
+    
+### **10. Termék megjelenítő**  
 - A termékek listázásáért és megjelenítéséért felelős.  
 - Metódusok: keresés termék szerint, termék szűrése kategóriák alapján.
 
