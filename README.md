@@ -77,24 +77,5 @@ mind vállalati ügyfelek számára.
 
 ---  
 
-Ez az összefoglaló megfelelő alapot nyújthat az alkalmazás dokumentációjához. Ha szeretnél kiegészítéseket vagy részletezést, jelezd bátran! 😊
-## Követelmények
-- Minden alkatrésznek ugyanazok a tulajdonságai
-- Termékcsoportok létrehozása
-- Akcióknak a kelzelése
-- Rendelések kezelése
 
-- 
-## Szükséges osztályok
-- Rendelés osztály
-        -
-- Termék osztály
-        -
-- Felhasználó
-          -
-- Admin osztály
-- Vevő osztály
-- Rendelés szolgáltatás
-- Regisztrációs szolgáltatás
-- Termék megjelenítő
-         - 
+
